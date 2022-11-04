@@ -251,7 +251,7 @@
                   </li>
                   <li class="list">
                     <a href="" class="icon-join-team">
-                      <svg width="20px" heght="20px" class="team-soc-icon">
+                      <svg width="20px" height="20px" class="team-soc-icon">
                         <use href="./images/sprite.svg#facebook"></use>
                       </svg>
                     </a>
@@ -433,7 +433,6 @@
               name="email-send"
               class="footer-send"
               placeholder="E-mail"
-              required
             />
             <button class="button primary button-send">
               <div class="bt-title-icon">
@@ -456,12 +455,12 @@
           </svg>
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-        <form class="form">
+        <form>
           <div class="form-fild">
             <label for="user_name" class="form-label">Ім’я</label>
             <div class="input-fild">
               <input
-                type="user_name"
+                type="text"
                 name="name"
                 id="user_name"
                 class="form-input"
@@ -509,12 +508,7 @@
           </div>
 
           <label for="user_coment" class="form-label">Коментар</label>
-          <textarea
-            type="textarea"
-            name="coment"
-            id="user_coment"
-            class="form-coment"
-          >
+          <textarea name="coment" id="user_coment" class="form-coment">
 Введіть текст
           </textarea>
 
